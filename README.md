@@ -36,5 +36,6 @@ The service workers for this app will only cache the site when it is in producti
 
 ## How to run the project in Production Mode
 
-1. Build the production optimised code by: `npm run build`
+1. Make sure the cloned repo. has origin remote configured correctly. 
+2. Build the production optimised code by: `npm run build`
 2. Deploy it to `gh-pages` branch by `npm run deploy`
