@@ -208,6 +208,7 @@ function loadMapJS(src) {
     script.async = true;
     script.onerror = function () {
         document.write("Google Maps can't be loaded");
+        return;
     };
     ref.parentNode.insertBefore(script, ref);
 }
