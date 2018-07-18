@@ -6,13 +6,15 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
-     "react-scripts": "1.1.4"
+    "gh-pages": "^1.2.0",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-
-  }
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "homepage": "https://assems.github.io/Neighborhood-Map"
 }

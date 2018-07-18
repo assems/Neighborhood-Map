@@ -29,4 +29,12 @@ After Node is installed in your system, follow the below steps.
 3. Run the command `npm install`
 4. Launch the app with `npm start`
 
-A new browser window open automatically displaying the app.  If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
+A new browser window open automatically displaying the app.  If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser.
+
+**Note**
+The service workers for this app will only cache the site when it is in production mode.
+
+## How to run the project in Production Mode
+
+1. Build the production optimised code by: `npm run build`
+2. Deploy it to `gh-pages` branch by `npm run deploy`
